@@ -12,6 +12,8 @@ public class Question {
     private String question;
     private String type;
     private String category;
+    private String correo;
+
 
 
     public String getId() {
@@ -52,5 +54,13 @@ public class Question {
 
     public void setCategory(String category) {
         this.category = category;
+    }
+
+    public String getCorreo() {
+        return correo;
+    }
+
+    public void setCorreo(String correo) {
+        this.correo = correo;
     }
 }
